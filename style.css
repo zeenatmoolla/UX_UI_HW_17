@@ -1,0 +1,65 @@
+p {
+    text-align: center;
+    color: red;
+  }
+  span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid brown; 
+    background-color: rgb(201, 189, 122); 
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid brown; 
+    background-color: #ffff00; 
+  }
+  
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue; 
+    background-color: #ffff00; 
+  }
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+.note {
+  font-size: 120%;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<h1>My <span class="note">Important</span> Heading</h1>
+<p>This is some <span class="note">important</span> text.</p>
+div.a {
+    width: auto;
+    border: 23px solid black;
+  }
+  div {
+    padding-top: 1px;
+  }
+  div.a {
+    width: 50px;
+    border: 1px solid black;
+  }
+  div.a {
+    text-align: center;
+  }
+  div.b {
+    height: 50px;
+    border: 1px solid black; 
+  }
+
+</body>
+</html>
