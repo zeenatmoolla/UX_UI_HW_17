@@ -1,65 +1,48 @@
-p {
-    text-align: center;
-    color: red;
-  }
-  span.a {
-    display: inline; /* the default for span */
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: 1px solid brown; 
-    background-color: rgb(201, 189, 122); 
-  }
-  
-  span.b {
+/* Navbar CSS */
+.inline-block {
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: 1px solid brown; 
-    background-color: #ffff00; 
+    vertical-align: top;
   }
   
-  span.c {
-    display: block;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: 1px solid blue; 
-    background-color: #ffff00; 
+  .logo {
+    width: 23%;
+    padding: 1%;
   }
-  <!DOCTYPE html>
-<html>
-<head>
-<style>
-.note {
-  font-size: 120%;
-  color: black;
-}
-</style>
-</head>
-<body>
-
-<h1>My <span class="note">Important</span> Heading</h1>
-<p>This is some <span class="note">important</span> text.</p>
-div.a {
-    width: auto;
-    border: 23px solid black;
+  
+  nav {
+    width: 73%;
+    padding: 1%;
   }
-  div {
-    padding-top: 1px;
+  
+  ul {
+    width: 50%;
+    margin-left: auto;
   }
-  div.a {
-    width: 50px;
-    border: 1px solid black;
+  
+  /* Hero Image CSS */
+  .heroImg {
+    height: 600px;
+    padding: 25px;
   }
-  div.a {
+  
+  .content {
+    width: 500px;
+    margin: 0 auto;
     text-align: center;
   }
-  div.b {
-    height: 50px;
-    border: 1px solid black; 
+  
+  /* Footer CSS */
+  footer {
+    background-color: #373738;
+    padding: 10px;
   }
-
-</body>
-</html>
+  
+  footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+  }
+  
+  footer li {
+    padding: 5px 10px;
+  }
